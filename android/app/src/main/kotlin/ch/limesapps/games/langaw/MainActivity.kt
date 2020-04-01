@@ -1,4 +1,4 @@
-package com.gitlab.loosli.christian.langaw
+package ch.limesapps.games.langaw
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
