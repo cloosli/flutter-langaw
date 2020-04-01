@@ -16,3 +16,15 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 https://jap.alekhin.io/create-mobile-game-flutter-flame-beginner-tutorial
+
+### Generate new icons
+Update the icon.png in /assets/icon/ and run following script
+```bash
+flutter pub run flutter_launcher_icons:main
+```
+
+### Rename launcher name
+Update the name property in pubspec.yaml for flutter_launcher_name and run following script
+```
+flutter pub run flutter_launcher_name:main
+```
