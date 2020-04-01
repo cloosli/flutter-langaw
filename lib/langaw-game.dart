@@ -58,6 +58,13 @@ class LangawGame extends Game {
     initialize();
   }
 
+  @override
+  void onDetach() {
+    super.onDetach();
+    playingBGM.stop();
+    homeBGM.stop();
+  }
+
   void initialize() async {
     rnd = Random();
     flies = List<Fly>();
