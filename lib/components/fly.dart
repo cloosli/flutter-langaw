@@ -58,7 +58,7 @@ class Fly {
     } else {
       // flap the wings
       flyingSpriteIndex += 30 * timeDelta;
-      if (flyingSpriteIndex >= 2) {
+      while (flyingSpriteIndex >= 2) {
         flyingSpriteIndex -= 2;
       }
       // move the fly
